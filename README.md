@@ -29,6 +29,45 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 ## Logic Diagram
 ## Procedure
 ## Program:
+## Using NAND Operation:
+
+module expfour(a,b,c,d,f);
+
+input a,b,c,d;
+
+output f;
+
+wire p,q,r;
+
+assign p=(~c & b & a);
+
+assign q=(~d & c & ~a);
+
+assign r=(c & ~b & a);
+
+assign f=(~(~p & ~q & ~r));
+
+endmodule
+
+## Using NOR operation:
+
+module expfourone(a,b,c,d,f);
+
+input a,b,c,d;
+
+output f;
+
+wire x,y,z;
+
+assign x=( c & ~b & a);
+
+assign y=( d & ~c & a);
+
+assign z=( c & ~b & a);
+
+assign f=(~(~( x | y | z)));
+
+endmodule
 /*
 Program to implement the given logic function using NAND and NOR gates and to verify its operations in quartus using Verilog programming.
 Developed by: 
@@ -36,8 +75,13 @@ RegisterNumber:
 */
 ## RTL realization
 
+
 ## Output:
 ## RTL
+
+
 ## Timing Diagram
+
 ## Result:
+
 Thus the given logic functions are implemented using NAND and NOR gates and their operations are verified using Verilog programming.
