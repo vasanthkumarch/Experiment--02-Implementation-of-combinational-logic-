@@ -1,4 +1,4 @@
-# Experiment--02-Implementation-of-combinational-logic-using-universal-gates
+# Experiment--02-Implementation-of-combinational-logic
 Implementation of combinational logic gates
  
 ## AIM:
@@ -30,4 +30,4 @@ RegisterNumber:
 ## RTL
 ## Timing Diagram
 ## Result:
-Thus the given logic functions are implemented using NAND and NOR gates and their operations are verified using Verilog programming.
+Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
