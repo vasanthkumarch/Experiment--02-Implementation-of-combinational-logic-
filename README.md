@@ -1,4 +1,4 @@
-# Experiment--04-Implementation-of-combinational-logic-using-universal-gates
+# Experiment--02-Implementation-of-combinational-logic-using-universal-gates
 Implementation of combinational logic gates
  
 ## AIM:
@@ -20,7 +20,7 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 ## Procedure
 ## Program:
 /*
-Program to implement the given logic function using NAND and NOR gates and to verify its operations in quartus using Verilog programming.
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 Developed by: 
 RegisterNumber:  
 */
